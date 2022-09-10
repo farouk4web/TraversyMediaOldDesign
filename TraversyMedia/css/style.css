@@ -1,0 +1,208 @@
+/*
+*
+* this page designed with love ❤ by farouk abdelhamid
+*          (:       (:      (:      (:      (:
+*/
+
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+/* Our Rules */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+/* navgation Bar Start Point */
+nav{background-color: #214660;}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+nav ul li{float: left;}
+nav ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 25px 18px;
+    text-decoration: none;
+    line-height: 22px;
+}
+nav ul li.logo{font-size: 18px;}
+nav ul li a:hover,
+nav ul li.active{background-color: #193447}
+
+/* navgation Bar End Point */
+
+/* header Start Point */
+.header{
+    background-image: url("../img/header.jpg");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+            -o-background-size: cover;
+                background-size: cover;
+    height: 400px;
+    text-align: center;
+}
+.header .welcomeMessage{margin: 0;padding-top: 50px;color: #fff;}
+.header .welcomeMessage h2{margin-bottom: 0;margin-top: 0;font-size: 60px;}
+.header .welcomeMessage p{font-size: 22px;}
+.header .welcomeMessage button:first-of-type{
+    background-color: #214660;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer
+}
+.header .welcomeMessage button:last-of-type{
+    background-color: #fff;
+    color: #214660;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 0;
+    cursor: pointer
+}
+.header .headerIcons i{
+    
+}
+.header .headerIcons i img{
+    width: 80px;
+    margin: 25px 12px 12px;
+}
+/* header End Point */
+
+/* start supscripe by Email form */
+.supscripeEmail{
+    color: #fff;
+    background-color: #262D31;
+    overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+.supscripeEmail .label{
+    float: left;
+}
+.supscripeEmail .label h2{
+    margin: 0;
+    font-size: 30px;
+}
+.supscripeEmail .supscripeForm{
+    float: right;
+}
+.supscripeEmail .supscripeForm form button{
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 12px;
+    border: 0;
+    cursor: pointer;
+}
+.supscripeEmail .supscripeForm form button:hover{
+    background-color: #449D44;
+}
+.supscripeEmail .supscripeForm form input{
+    width: 350px;
+    font-size: 15px;
+    padding: 8px
+}
+/* end supscripe by Email form */
+
+/* start free corses section */
+.freeCorses{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    overflow: auto;
+}
+.freeCorses h2:first-of-type{
+    font-size: 30px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc
+}
+.freeCorses .course{
+    width: 31%;
+    padding: 13px;
+    float: left;
+    text-align: center;
+}
+.freeCorses .course h4{margin: 0;height: 40px;line-height: 40px;font-size: 18px;}
+.freeCorses .course .courseImage{width: 100%;height: 210px}
+.freeCorses .course .courseImage img{width: 100%;height: 100%;}
+.freeCorses .course h3{margin: 0;height: 50px;line-height: 50px;width: 100%;background-color: #214660}
+.freeCorses .course h3:hover{background-color: #142A3A}
+.freeCorses .course h3 a{color: #fff; text-decoration: none}
+/* end free corses section */
+
+/* end paid Courses section */
+.paidCourses{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    overflow: auto;
+    background-color: #214660;
+    color: #fff
+}
+.paidCourses h2:first-of-type{
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc
+}
+.paidCourses .course{
+    width: 31%;
+    padding: 13px;
+    float: left;
+    text-align: center;
+}
+.paidCourses .course h4{
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: #262D31
+}
+.paidCourses .course .courseImage{width: 100%;height: 200px}
+.paidCourses .course .courseImage img{width: 100%;height: 100%;}
+.paidCourses .course h3{
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: #5cb85c;
+    cursor: pointer;
+}
+.paidCourses .course h3:hover{background-color: #449D44;cursor: pointer;}
+.paidCourses .course h3 a{color: #fff; text-decoration: none}
+/* end paid Courses section */
+
+/* start footer section */
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: auto;
+    background-color: #262D31;
+    color: #fff;
+}
+footer .rights{width: 60%;float: left;}
+footer .rights p:last-of-type{margin-top: 20px}
+footer .rights p a{color: #fff;}
+footer .socialMediaIcons{width: 40%;float: left;}
+footer .socialMediaIcons h2{padding-bottom: 15px;border-bottom: 1px solid #fff;}
+footer .socialMediaIcons i{
+    color: #ddd;
+    margin: 8px;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #3D3D3D;    
+    cursor: pointer
+}
+footer .socialMediaIcons i:hover{box-shadow: 0 0 15px 0 #ccc;}
+/* end footer section */
